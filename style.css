@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fdfbfb;
+    color: #333;
+}
+
+nav {
+    background-color: #f8e1e7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+menu.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #d81b60;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.promo-banner {
+    background: #ffe0b2;
+    padding: 8px;
+    font-weight: bold;
+    color: #e65100;
+    margin-bottom: 20px;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #d81b60;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-download:hover {
+    background-color: #ad1457;
+}
+
+ul.cosmetic-ul, ol.custom-ol {
+    padding-left: 25px;
+}
+
+dl dt {
+    color: #880e4f;
+    font-size: 1.1em;
+}

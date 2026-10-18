@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інформація про товари — Списки</title>
+    <link rel="stylesheet" href="style.css" sizes="any" title="Main Styles" class="stylesheet" media="screen">
+</head>
+<body>
+
+    <nav class="main-navigation">
+        <a href="index.html">← Повернутися до Головного меню</a>
+    </nav>
+
+    <main>
+        <h1>Інформація про асортимент косметики</h1>
+
+        <!-- 1. Нумерований список <ol> з атрибутами: type="1", style, id, class, lang -->
+        <section>
+            <h2>Етапи щоденного догляду за шкірою (Нумерований список)</h2>
+            <ol type="1" style="line-height: 1.6;" id="skincare-steps" class="custom-ol" lang="uk">
+                <!-- Тег <li> з атрибутами: type, title, class, value -->
+                <li type="1" title="Очищення" class="step-item" value="1">
+                    <nobr class="bold-text">Очищення шкіри:</nobr> використання гідрофільної олії та пінки.
+                </li>
+                <li type="1" title="Тонізація" class="step-item" value="2">
+                    <nobr class="bold-text">Тонізація:</nobr> відновлення pH-балансу за допомогою тоніка.
+                </li>
+                <li type="1" title="Зволоження" class="step-item" value="3">
+                    <nobr class="bold-text">Зволоження:</nobr> нанесення сироватки та кремів.
+                </li>
+            </ol>
+        </section>
+
+        <!-- 2. Маркований список <ul> з атрибутами: compact, value, title, class -->
+        <section>
+            <h2>Категорії косметичних засобів (Маркований список)</h2>
+            <ul compact="compact" value="category-list" title="Популярні категорії" class="cosmetic-ul">
+                <li type="disc" title="Засоби для обличчя" class="cat-item" value="10">
+                    Креми, сироватки, маски для обличчя.
+                </li>
+                <li type="disc" title="Засоби для тіла" class="cat-item" value="20">
+                    Лосьйони, скраби, гелі для душу.
+                </li>
+                <li type="disc" title="Декоративна косметика" class="cat-item" value="30">
+                    <bdi class="bdi-text">Brand-New Line</bdi> — помади, туші, тональні засоби.
+                </li>
+            </ul>
+        </section>
+
+        <!-- 3. Список визначень <dl> з атрибутами: dir, id, title -->
+        <section>
+            <h2>Глосарій активних інгредієнтів (Список визначень)</h2>
+            <dl dir="ltr" id="glossary-list" title="Словник компонентів">
+                <dt><strong>Гіалуронова кислота</strong></dt>
+                <!-- Тег <dd> з атрибутами: title, style -->
+                <dd title="Зволожуючий компонент" style="margin-bottom: 10px;">
+                    Потужний зволожувач, який утримує вологу в глибоких шарах шкіри.
+                </dd>
+
+                <dt><strong>Ретинол</strong></dt>
+                <dd title="Антивіковий компонент" style="margin-bottom: 10px;">
+                    Форма вітаміну A, що прискорює оновлення клітин та покращує текстуру шкіри.
+                </dd>
+
+                <dt><strong>Ніацинамід</strong></dt>
+                <dd title="Заспокійливий компонент" style="margin-bottom: 10px;">
+                    Вітамін B3, який зменшує запалення, звужує пори та вирівнює тон.
+                </dd>
+            </dl>
+        </section>
+    </main>
+
+</body>
+</html>

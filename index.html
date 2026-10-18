@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтернет-магазин косметики — Навігація</title>
+    <!-- Тег <link> з атрибутами: sizes, title, href, class, media -->
+    <link rel="icon" href="favicon.ico" sizes="16x16" title="Favicon" class="site-icon" media="all">
+    <link rel="stylesheet" href="style.css" sizes="any" title="Main Styles" class="stylesheet" media="screen">
+</head>
+<body>
+
+    <!-- Тег <nav> з атрибутом class -->
+    <nav class="main-navigation">
+        <h2>Головне меню Web-проекту</h2>
+        <!-- Тег <menu> з атрибутами class, id -->
+        <menu class="nav-menu" id="primary-menu">
+            <!-- Теги <menuitem> з атрибутами id, class -->
+            <menuitem id="item-home" class="menu-node">
+                <a href="index.html" class="nav-link" id="link-home" title="Головна">Головна (поточна)</a>
+            </menuitem>
+            <menuitem id="item-info" class="menu-node">
+                <a href="info.html" class="nav-link" id="link-info" title="Інформація про товари">Інформація про товари (Списки)</a>
+            </menuitem>
+            <menuitem id="item-catalog" class="menu-node">
+                <a href="#" class="nav-link" id="link-catalog" title="Каталог">Каталог товарів</a>
+            </menuitem>
+            <menuitem id="item-contact" class="menu-node">
+                <a href="#" class="nav-link" id="link-contact" title="Контакти">Контакти</a>
+            </menuitem>
+        </menu>
+    </nav>
+
+    <!-- Тег <main> -->
+    <main>
+        <!-- Тег <marquee> з атрибутами truespeed, scrollamount, behavior, loop, hspace -->
+        <marquee truespeed="truespeed" scrollamount="5" behavior="scroll" loop="infinite" hspace="10" class="promo-banner">
+            ✨ Акція! Безкоштовна доставка косметичних наборів при замовленні від 1000 грн! ✨
+        </marquee>
+
+        <section>
+            <h1>Лабораторна робота №3: Магазин Доглядової Косметики</h1>
+            <p>Вітаємо у нашому веб-проекті! Скористайтеся меню вище або швидким завантаженням матеріалів нижче.</p>
+
+            <!-- Тег <a> з атрибутами accesskey, coords, rev, type, id, download -->
+            <p>
+                Завантажити прайс-лист товарів: 
+                <a href="price.pdf" download="Cosmetics_Price.pdf" id="download-btn" type="application/pdf" accesskey="d" rev="appendix" coords="0,0,100,50" class="btn-download">
+                    Завантажити PDF (Натисніть Alt+D)
+                </a>
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>
